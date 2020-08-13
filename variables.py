@@ -10,3 +10,21 @@ if(c<d):
     print("d is greater than c")
 else:
     print("d is less than or equal to d")
+
+
+X=True
+Y=False
+Z=X and Y
+print(Z)
+X=True
+Y=True
+Z=X and Y
+print(Z)
+X= False
+Y=True
+Z=X and Y
+print(Z)
+X=False
+Y=False
+Z=X and Y
+print(Z)
